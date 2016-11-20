@@ -1,0 +1,19 @@
+.footer-menu {
+	color: #EEE;
+	margin-top: 10px;
+	font-size: 10pt;
+	padding: 0px;
+	opacity: 0.8;
+}
+
+.btn-primary:hover{
+	color: #FFFFFF;
+}
+.footer-column{
+	text-align: center;
+}
+
+.footer-column-res {
+	text-align: center;
+	margin-left: 0px !important;
+}

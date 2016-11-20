@@ -1,0 +1,390 @@
+.fa {
+	color: #ffffff;
+}
+
+.facilities {
+	padding-bottom: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.col-sm-3 {
+	padding: 10px;
+}
+
+.facility-menu {
+	background-color: rgba(146, 20, 40, 1);
+}
+
+.facilities-header {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding: 10px 10px 5px 10px;
+	border-bottom: 1px solid white;
+}
+
+.facilities-body {
+	text-align: center;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	height: 390px;
+	overflow: auto;
+}
+
+.facilities-body > row {
+	width: 100%;
+}
+
+.facilities-footer {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding: 5px 10px 10px 10px;
+	border-top: 1px solid white;
+	text-align: center;
+}
+
+.facilities-footer p {
+	margin: 0;
+	font-weight: 700;
+	color: white;
+	font-size: 14px;
+}
+
+.facility-name {
+	padding: 0px 0px 5px 0px;
+	overflow-y: hidden;
+	height: 30px;
+	width: 100%;
+	margin: 0px;
+	font-weight: 700;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.facility-name:hover {
+	background-color: #9C101E;
+}
+
+.facility-name p {
+	color: white;
+	margin-bottom: 0;
+}
+
+.facility-title {
+	text-align: center;
+}
+
+.facility-description {
+	text-align: center;
+	padding-left: 50px;
+}
+
+.facility-carousel {
+	padding: 20px 0px 20px 20px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.facility-submit {
+	text-align: right;
+}
+.facility-submit .btn-fill {
+	background-color: #9A101D;
+	border-color: #9A101D;
+}
+
+.facility-submit .btn-fill:hover {
+	background-color: #9A101D;
+	border-color: #9A101D;
+}
+
+.btn-default.btn-fill {
+	background-color: #9A101D;
+	border-color: #9A101D;
+}
+
+.btn-default.btn-fill:hover {
+	background-color: #9A101D;
+	border-color: #9A101D;
+}
+
+.affix-bottom {
+	top: 300px;
+}
+
+.modal-lg {
+	width: 800px;
+}
+.arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #9A101D;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #9A101D;
+}
+
+.left-column {
+	padding-top: 40px;
+	width: 250px;
+	margin-left: -20px;
+}
+
+.right-column {
+	border-left: 1px solid #9A101D;
+	width: 60%;
+}
+
+.date {
+	padding-left: 0;
+}
+
+.day {
+	margin-left: -5px;
+	font-weight: 700;
+	color: #9A101D;
+	font-size: 20px;
+}
+
+.month {
+	margin-left: -16px;
+	font-weight: 700;
+	color: #9A101D;
+	font-size: 20px;
+}
+
+.year {
+	margin-left: -16px;
+	font-weight: 700;
+	color: #9A101D;
+	font-size: 20px;
+}
+
+.facility-title h3 {
+	margin-top: 0px;
+	padding-bottom: 10px;
+}
+
+.modal-footer {
+	clear: both;
+}
+
+.time-slot {
+	border-bottom: 1px dashed #9A101D;
+	padding-top: 10px;
+	padding-left: 10px;
+	width: 400px;
+	height: 40px;
+}
+
+.time-slot:hover {
+	background-color: #EDEDED;
+}
+
+.field {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.time-slot h4 {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+form > h4 {
+	margin-top: 0;
+}
+
+.modal-footer {
+	padding: 10px 23px 10px 0px;
+}
+
+.modal-footer .btn-fill {
+	background-color: #9A101D;
+	border-color: #9A101D;
+}
+
+.modal-footer .btn-fill:hover {
+	background-color: #9A101D;
+	border-color: #9A101D;
+}
+
+.text-align {
+	text-align: center;
+}
+
+.disabled-input {
+	cursor: default !important;
+}
+
+.btn-go {
+	height: 25px;
+	text-align: center;
+	padding: 0;
+}
+
+.btn-fill.btn-go {
+	background-color: #9A101D;
+	border-color: #9A101D;
+}
+
+.btn-fill.btn-go:hover {
+	background-color: #9A101D;
+	border-color: #9A101D;
+}
+
+.btn-fill.btn-menu {
+	width: 290px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+	background-color: rgba(255,255,255,0);
+	border-color: rgba(255,255,255,0);
+}
+
+.btn-fill.btn-menu:hover {
+	background-color: rgba(255,255,255,0);
+	border-color: rgba(255,255,255,0);
+}
+
+.btn-default.btn-fill:active {
+	background-color: #9A101D;
+	border-color: #9A101D;
+	box-shadow: none;
+}
+
+.btn-default.btn-fill:active:focus {
+	background-color: #9A101D;
+	border-color: #9A101D;
+	box-shadow: none;
+}
+
+.btn-default.btn-fill:focus {
+	background-color: #9A101D;
+	border-color: #9A101D;
+	box-shadow: none;
+}
+
+.form-control[readonly] {
+	cursor: default;
+	color: #000000;
+}
+
+.form-horizontal {
+	padding-left: 150px;
+}
+
+.modal-body > .form-horizontal {
+	padding-left: 0px;
+}
+
+#alignmentDiv {
+	margin-bottom: -100px;
+}
+
+#addFacility {
+	padding-top: 125px;
+	margin-bottom: -100px;
+}
+
+#editFacility {
+	padding-top: 125px;
+	margin-bottom: -100px;
+}
+
+#editUser {
+	padding-top: 150px;
+}
+
+#updateAlertSuccess {
+	margin-left: 24%;
+	width: 70%;
+}
+
+#updateAlertFail {
+	margin-left: 24%;
+	width: 70%;
+}
+
+#facilityNameRight {
+	margin-top: 0px;
+}
+
+.navbar-nav > li.open > .dropdown-menu.account, .open.dropdown-menu.account {
+	transform: translateX(25%) !important;
+}
+
+.navbar-nav > li.open > .dropdown-menu.reservations, .open.dropdown-menu.reservations {
+	transform: translateX(-6.666666%) !important;
+}
+
+.search {
+	margin-top: 30px;
+}
+
+.fa-search {
+	color: #9A101D;
+}
+
+.fa-square-o {
+	color: #E3E3E3;
+}
+
+.btn-default {
+	border: 1px solid #E3E3E3;
+}
+
+#filters {
+	margin-top: 5px;
+}
+
+.filter-title {
+	font-style: italic;
+	font-weight: 700;
+	font-size: 12px;
+	color: #777777;
+}
+
+.filter {
+	font-weight: 700;
+	font-size: 12px;
+	color: #777777;
+}
+
+.checkbox {
+	padding-left: 0px;
+	margin-left: 25%;
+}
+
+.checkbox:hover .first-icon {
+	opacity: 1;
+}
+
+.checkbox.checked .second-icon {
+	color: #9A101D;
+}
+
+#mapContainer {
+	height: 300px;
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2.5%;
+	margin-top: 2.5%;
+}
+
+#map {
+	height: 100%;
+}
